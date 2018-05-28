@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layout" type="id" />
+    <item name="tvTimer" type="id" />
+    <item name="text_view_countdown" type="id" />
+</resources>

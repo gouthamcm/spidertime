@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.rec.rubixtimer.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="90dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/layout"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:paddingBottom="50dp"
+            android:text="00:00:00"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:visibility="invisible"
+            tools:visibility="visible"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="167dp"
+            android:text="00:00"
+            android:textColor="@android:color/black"
+            android:textSize="60sp"
+            tools:visibility="visible"
+            android:visibility="invisible" />
+
+
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
